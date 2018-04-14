@@ -8,6 +8,7 @@ Quillor Website
 ## Development 
 - Compatible with Boostrap 4.0 without CSS theme conflicts 
 - Uses SASS 
+- Supports Custom Post Types and Custom Pages 
 - Has organized style sheet files and naming based on Boostrap naming conventions 
 
 ## Business 
@@ -36,6 +37,11 @@ Quillor Website
 	- What if someone is working on LOCAL, but someone updates content on LIVE? 
 		- How do you keep it up to date?
 
+## Page Building 
+- When should you build a page with php page tempates? 
+- When should you build a page with a page builder (like DIVI)? 
+- When should you build a page with the basic WP editor? 
+
 ## Stylesheet management 
 - What is the best way to add CSS to the website? (Listed quickest to longest): 
 	- Inline CSS inside of Wordpress using DIVI? 
@@ -53,6 +59,3 @@ Quillor Website
 
 ## What is the best development workflow? 
 - FTP on STAGING or LOCAL? 
-
-
-
