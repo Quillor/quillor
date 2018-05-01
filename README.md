@@ -8,6 +8,7 @@ Quillor Website
 ## Development 
 - Compatible with Boostrap 4.0 without CSS theme conflicts 
 - Uses SASS 
+- Has a component stlyeguide like this http://scribble.studio/pawboost/style-guide/style-guide.php#collapseThree
 - Supports Custom Post Types and Custom Pages 
 - Has organized style sheet files and naming based on Boostrap naming conventions 
 
