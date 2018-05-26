@@ -1,0 +1,76 @@
+//Header
+
+//body
+body{
+	overflow-x: hidden;
+}
+
+
+
+@media (max-width: 780px){
+	.et_pb_column .et_pb_row_inner, .et_pb_row {
+		padding: 5px 0;
+	}
+}
+
+//widget
+
+
+
+//Footer
+#main-footer{
+	background-color:darken($color-persian-green, 28);
+	border-top: solid darken($color-persian-green, 20) 3px;
+	
+	#footer-widgets{
+		padding: 3% 0 0;
+		
+		h4.title{
+			color:$color-teal; 
+			font-weight:bold;
+			font-family: "DiavloBlack", Helvetica, arial;
+			font-size: 24px;
+		}
+		
+		*{
+			color:$color-white;
+		}
+		
+		.sosmed{
+			display: flex;
+			
+			li{
+				padding-left:20px;
+				
+				&:first-child{
+					padding-left:0px;
+				}
+				a{
+					font-size: 35px;
+					
+					i{
+						color: $color-persian-green;
+					}
+				}
+			}
+		}
+	}
+	
+	#footer-bottom{
+		background-color:$color-brown-pod;
+		padding: 20px 0px 10px;
+		border-top: solid darken($color-persian-green, 24) 1px;
+		
+		*{
+			color:$color-strong-orange;
+			font-family: "DiavloBlack", Helvetica, arial !important;
+			font-size: 18px;
+		}
+	}
+}
+
+@media (min-width: 981px){
+	.et_pb_gutters3 .footer-widget {
+		margin: 0 5.5% 3.5% 0;
+	}
+}

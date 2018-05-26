@@ -1,0 +1,50 @@
+//Brand Quiz Page
+
+#brand-quiz{
+  	border-left: 5px solid #00aca0;
+    border-right: 5px solid #00aca0;
+       padding-bottom: 30px;
+  
+     p#quiz-title { 
+       width:100%; 
+       text-align:center; 
+       border-bottom: 5px solid #00aca0; 
+       line-height:0em; 
+       margin:40px 0px; 
+  	 
+       span {
+         background: #485e5b;
+         padding: 0px 10px;
+       }
+  	}
+  
+  .inside-quiz{
+  	max-width:70%;
+    margin: 0 auto;
+  }
+}
+
+    #quiz-button{
+      text-align:center;
+  	  position:relative;
+   	  z-index:2;
+      margin-top: -30px;
+    margin-bottom: 60px;
+      
+      &:after{
+        content:"";
+        position:absolute;
+        top:50%;
+        left:0;
+        right:0;
+        border-top: solid 5px #00aca0;
+        z-index:-1;
+      }
+    }
+
+.quiz-help-num{
+	font-size: 100px; 
+  	line-height: 50px;
+  	margin-right: 10px;
+  	float:left;
+}

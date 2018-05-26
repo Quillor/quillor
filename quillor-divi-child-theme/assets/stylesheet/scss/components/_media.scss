@@ -1,0 +1,76 @@
+//images and video
+.hero-video {
+    border: solid 1px lighten( $color-persian-green, 20);;
+    box-shadow: 0px 0px 220px lighten( $color-persian-green, 20);;
+}
+
+.case-study-widget{
+    background-position: 0vw 0px !important;
+	
+	&-bottom{
+		background-position: 0vw 0px !important;
+		&:hover{
+			background-position: 50% 50% !important;
+		}
+	}
+	
+	&:hover{
+		background-position: -5vw 0px !important;
+	}
+}
+
+.case-study-widget-bottom, .case-study-widget {
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    background-color:  $color-persian-green ;
+}
+
+.section-hero, .et_pb_section.case-study-widget, .et_pb_section.case-study-widget-bottom {
+    min-height: 50vh;
+    padding: 25vh 0px;
+}
+
+.featured-image-right {
+    width: 90vw;
+    max-width: 90vw;
+    margin-left: -8vw;
+}
+
+//evolemint iframe header
+div.desktop-wrapper {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 66%;
+    height: 0;
+	
+	iframe {
+		box-sizing: border-box;
+		background: url(http://quillor.studio/wp-content/uploads/2018/01/monitor-new.png) center center no-repeat;
+		background-size: contain;
+		padding: 4% 11.8% 21%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	@media (max-width: 920px){
+		iframe {
+			padding: 4% 10.8% 21%;
+		}
+	}
+}
+
+//ax audit
+
+.overlay-teal-video{
+	.mejs-layers{
+		background: rgba(17, 75, 70, 0.6);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%
+	}
+}

@@ -1,0 +1,29 @@
+//services page
+.custom-container-services{
+	.et_pb_column {
+		border: 1px solid darken($color-persian-green, 20%);
+		.services-page {
+			padding: 15px 30px;
+			
+			a.contact-us {
+				margin: 20px auto;
+			}
+		}
+		@media (min-width: 981px){
+			.services-page {
+				min-height: 700px;
+				p{
+					line-height: 1.8em;
+				}
+				a.contact-us {
+					position: absolute;
+					bottom: 20px;
+					margin: 0 auto;
+					display: block;
+					left: 10px;
+					right: 10px;
+				}
+			}
+		}
+	}
+}

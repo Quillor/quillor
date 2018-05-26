@@ -1,0 +1,124 @@
+//Nav
+.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation{
+	padding-top:0px !important;
+}
+	
+#main-header{
+	background-color:darken( $color-persian-green, 20);
+	border-bottom: solid $color-persian-green 2px;
+	
+
+	
+	#top-menu{
+		li{
+			padding: 30px 12px 0px;
+			
+			a{
+				color:$color-white;
+				font-family: "DiavloBlack", Helvetica, arial !important;
+			}
+			
+			&:hover{
+				background-color: lighten( $color-persian-green, 10);
+				color:$color-white;
+				a{
+					color:$color-white;
+					opacity:1;
+				}
+			}
+			
+			&.current-menu-item{
+				background-color: lighten( $color-persian-green, 2);
+			}
+			
+			ul.sub-menu{
+				background-color:   darken( $color-persian-green, 20);
+				border-radius: 4px;
+				-webkit-background-clip: padding-box;
+				background-clip: padding-box;
+				box-shadow: 0 3px 5px rgba(0,0,0,0.25);
+				border-top: darken( $color-persian-green, 20);
+				
+				li{
+					padding: 0px;
+					width: 100%;
+				}
+				
+			}
+			
+			&.call-us{
+				padding-top: 15px;
+			
+				a{
+					background: $color-white;
+					border: 2px solid $color-persian-green;
+					color: $color-persian-green;
+					padding: 10px;
+					&:hover{
+						background: $color-persian-green;
+						color:$color-white !important;
+						opacity:1;
+					}
+				}
+				&:hover{
+					background: transparent;
+				}
+			}
+		}
+		
+	}
+	
+}
+
+.mobile_menu_bar{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+	&:before{
+		font-size: 50px;
+		color: $color-white;
+		background-color: $color-persian-green;
+		-webkit-border-radius: 10px 0px 10px;
+		border-radius: 10px 0px 10px;
+	}
+}
+
+.et_mobile_menu{
+	border-top:solid $color-persian-green 2px;
+	background-color:   darken( $color-persian-green, 20);
+	
+	li{
+	
+		a{
+			color:$color-white;
+			opacity: .7;
+			
+			&:hover{
+				background-color: lighten( $color-persian-green, 10) !important;
+				opacity: 1;
+			}
+		}
+			
+		&.current-menu-item{
+			background-color: lighten( $color-persian-green, 2);
+			a{
+				opacity: 1;
+				color:$color-white;
+			}
+		}
+		
+		&.call-us{
+			background-color: $color-brilliant-orange !important;
+			text-align: center;
+			-webkit-border-radius: 10px 0px 10px;
+	
+			a{
+				border-bottom: 3px solid #fff;
+				opacity: 1;
+			}
+		}
+		
+		
+	}
+}
+

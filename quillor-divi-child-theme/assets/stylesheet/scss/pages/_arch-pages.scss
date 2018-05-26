@@ -1,0 +1,208 @@
+//Arch Pages
+
+$color-white-hover: darken( #ffffff, 5); 
+$color-orange-hover: lighten( #e3915c, 10); 
+$color-light-orange-hover: lighten( #fad39a, 10); 
+$color-light-brown-hover: lighten( #784b2e , 10); 
+
+$color-pink-light-hover: lighten($color-pink-light, 10); 
+$color-pink-hover: lighten($color-pink, 20); 
+$color-pink-dark-hover: lighten($color-pink-dark , 30); 
+
+.archetype{
+  
+  .hero-header-page{
+      background-color: #9c191e !important;
+    
+	    .first-header-content{
+          margin-bottom:100px !important;
+        }
+  
+      .hero-main-icon{
+        max-width: 150px;
+      }
+  }
+  
+  .magician-header-page{
+      background-color: #7d527d !important;
+    
+	    .first-header-content{
+          margin-bottom:100px !important;
+        }
+  
+      .hero-main-icon{
+        max-width: 150px;
+      }
+  }
+
+
+
+  p{
+  	margin-bottom:0px;
+  }
+  
+  .hero-category.hero-back-white{
+     &:hover {
+      background-color:$color-white-hover !important;
+      }
+   }
+  .hero-category.hero-back-orange-light{
+     &:hover {
+      background-color:$color-light-orange-hover !important;
+      }
+   }
+   .hero-category.hero-back-orange{
+     &:hover {
+      background-color:$color-orange-hover !important;
+      }
+   }
+   .hero-category.hero-back-light-brown{
+     &:hover {
+      background-color:$color-light-brown-hover !important;
+      }
+   }
+  
+  .archetype-category.hero-back-pink-light{
+     &:hover {
+      background-color:$color-pink-light-hover !important;
+      }
+   }
+   .archetype-category.hero-back-pink{
+     &:hover {
+      background-color:$color-pink-hover !important;
+      }
+   }
+   .archetype-category.hero-back-pink-dark{
+     &:hover {
+      background-color:$color-pink-dark-hover !important;
+      }
+   }
+}
+
+
+
+
+.transparent-white-overlay{
+   &:before{
+     width: 100%;
+   	 height: 100%;
+     background: rgba(255, 255, 255, 0.5);
+  	 position: absolute;
+   	 display: block;
+   }
+}
+
+
+.transparent-brown-overlay{
+   &:before{
+     width: 100%;
+   	 height: 100%;
+     background: rgba(120, 75, 46, 0.5);
+  	 position: absolute;
+   	 display: block;
+   }
+}
+
+
+
+
+
+.hero-category, .archetype-category{
+  a{
+ 	 &:hover {
+    	color:#fff !important;
+       text-decoration: none;
+    	}
+    &:hover *{
+    	color:#fff !important;
+          text-decoration: none;
+    	}
+    &:active,  &:focus {
+    	color:#fff !important;
+       text-decoration: none;
+    	}
+    }
+
+
+  .arrow-icon{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+}
+
+.hero-back-white.hero-category, .archetype-back-white.hero-category{
+  a{
+    &:hover{
+      color:#e3915c !important;
+    }
+      &:hover *{
+    	color:#e3915c !important;
+    	}
+    &:active , &:focus{
+    	color:#e3915c !important;
+    	}
+    }
+  }
+
+
+.pinterest-board span:nth-child(1){
+    max-width:100% !important;
+}
+
+.box-brand{
+	position:relative;
+    margin-top:-200px;
+    padding-bottom: 80px;
+}
+
+.has-divider{
+	&-right{
+      	 background: url(http://quillor.local/wp-content/uploads/2017/12/Divider.png);
+   		 background-repeat: no-repeat;
+   		 background-position: right 80px;
+	}
+}
+
+.divider-block{
+    .x-hr.custom-divider-line{
+    	width: 45%;
+      	float:left;
+    }
+    .icon-block.vc_icon_element-inner{
+    	width:8%;
+       	float:left;
+      
+      span.vc_icon_element-icon{
+        text-align: center; 
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+    	-ms-transform: rotate(45deg);
+    	-o-transform: rotate(45deg);
+    	transform: rotate(45deg);
+   		margin: -27px 0px 0px -15px;
+        display: block;
+      }
+    }
+}
+
+//arch quiz
+h5.quiz-help-num {
+	font-size: 80px;
+    line-height: 20px;
+    margin-right: 10px;
+    float: left;
+}
+
+@media (max-width: 780px){
+  .box-brand{
+  	position:inherit;
+    margin-top:20px;
+  }
+  .has-divider{
+    &-right{
+    	background:none !important;
+    }
+  }
+
+}

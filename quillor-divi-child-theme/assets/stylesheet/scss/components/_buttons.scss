@@ -1,0 +1,81 @@
+//Buttons
+a.contact-us img {
+    display: inline-block;
+    margin-bottom: -6px;
+}
+a.contact-us.hero-text-golden-yellow{
+    text-decoration:none !important;
+    &:hover{
+    	color: lighten( $color-golden-yellow, 20) !important;
+    }
+    &:active{
+    	color: darken( $color-golden-yellow, 20) !important;
+    }
+    &:visited{
+    	color:$color-golden-yellow;
+    
+    }
+ }
+
+.quillor-form{
+	input[type=submit]{
+      text-decoration:none !important;
+      &:hover{
+          background: lighten( $color-persian-green, 20) !important;
+      }
+      &:active{
+          background: darken( $color-persian-green, 20) !important;
+      }
+      &:visited{
+          background:$color-persian-green !important;
+
+      }
+  	}
+}
+
+a.contact-us.green-white{
+    background: $color-white;
+    color:$color-persian-green;
+    border: 2px solid $color-persian-green;
+
+ 	 &:hover{
+       background:$color-persian-green !important;
+       color:$color-white;
+ 	 }
+}
+
+a.contact-us, .btn-feature, .call-us > a, .x-nav-wrap.mobile * .call-us > a {
+    color: $color-white;
+    font-family: "DiavloBlack", Helvetica, arial !important;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: 3px solid $color-white;
+    border-radius: 10px 0px 10px;
+    -moz-border-radius: 10px 0px 10px;
+    -webkit-border-radius: 10px 0px 10px;
+    text-shadow: none;
+    display: inherit;
+    transition: .3s;
+    -webkit-transition: .3s;
+	background-color: $color-brilliant-orange;
+}
+
+h3{
+	a.contact-us{
+		padding: 0px 24px;
+	}
+}
+
+a.contact-us:hover, .btn-feature:hover, .call-us > a:hover {
+    background-color: lighten($color-brilliant-orange, 20%);
+}
+
+.small-button-link {
+    margin: 0 auto;
+    max-width: 350px;
+    width: 100%;
+}
+
+.very-bottom-button{
+	margin-top:30px;
+}

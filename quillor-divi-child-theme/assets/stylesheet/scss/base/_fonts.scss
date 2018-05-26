@@ -1,0 +1,160 @@
+//Fonts
+@import url("http://scribble.studio/master/fonts/diavlo/diavlo.css");
+
+@font-face {
+	font-family: 'DiavloBlack';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/diavlo-black/Diavlo Black Regular'),url('fonts/diavlo-black/Diavlo_BLACK_II_37.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Diavlo Light Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/diavlo-black/Diavlo Light Regular'),url('fonts/diavlo-black/Diavlo_LIGHT_II_37.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Diavlo Medium Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/diavlo-black/Diavlo Medium Regular'), url('fonts/diavlo-black/Diavlo_MEDIUM_II_37.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'WisdomScriptAIRegular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/wisdom/WisdomScriptAIRegular'), url('fonts/wisdom/wisdom_script-webfont.woff') format('woff');
+}
+
+.wisdom-font {
+    font-family: 'WisdomScriptAIRegular', Diavlo Light, Helvetica, Arial, sans-serif;
+}
+
+.garamond-font{font-family: 'EB Garamond', serif;     line-height: 1.8em;}
+
+.helvetica-font{font-family: Helvetica Neue,Helvetica,Arial,sans-serif;}
+
+body{
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:$color-white;
+}
+
+.bold{font-weight:bold;}
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5{
+	font-family: "DiavloBlack", Helvetica, arial;
+	color:$color-white;
+	line-height: 1.2em;
+}
+
+.h3, h3{
+	font-size:35px;
+}
+
+.h4, h4{
+	font-size:28px;
+}
+
+.res-h1{
+
+}
+.res-h2{
+
+}
+.res-h3{
+
+}
+.res-h4{
+
+}
+.res-h5{
+	font-size: calc(0.9vw + 12px);
+}
+
+p{
+    font-size: 18px;
+	font-family: 'Diavlo light Regular';
+	line-height: 1.8em;
+}
+
+.lead{
+	margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.bold{
+    font-family: "DiavloBlack", Helvetica, arial;
+}
+
+label, body .gform_wrapper label.gfield_label{
+	color:$color-warm-grey;
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+}
+
+.textwidget a {
+    font-family: "DiavloBlack", Helvetica, arial !important;
+}
+
+
+.et_pb_column_1_3 h4, .et_pb_column_1_4 h4 {
+    font-size: 33px;
+}
+
+.text-shadow{
+	text-shadow: 0px 0px 20px #000
+}
+
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: 1;
+  &:before {
+    content: '';
+    // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar
+    background: linear-gradient(to right, transparent, #00aca0, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+
+    padding: 0em 0.2em;
+    line-height: 1.5em;
+    // this is really the only tricky part, you need to specify the background color of the container element...
+    color: $color-white;
+    background-color: darken($color-persian-green, 25);
+	
+	
+  }
+}
+
+@media (min-width: 768px){
+	.lead {
+		font-size: 21px;
+	}
+}
+
+@media (max-width: 780px){
+	
+	.et_pb_column_1_3 h4, .et_pb_column_1_4 h4, h4{
+		font-size: 24px;
+	}
+}

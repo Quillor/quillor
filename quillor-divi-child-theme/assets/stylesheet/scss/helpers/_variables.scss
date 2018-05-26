@@ -1,0 +1,451 @@
+@import "compass/css3";
+
+$color-white: #ffffff; 
+$color-black: #000000; 
+$color-sepia: #836428; 
+$color-teal: #15554f; 
+$color-greyish: #b4b4b4; 
+
+$color-persian-green: #00aca0;  //header, footer dominant color
+$color-palatinate-purple: #20091e;  //Evolvemint 
+$color-brilliant-orange:#DD4E1D; // buttons orange
+$color-strong-orange:#92633c; // footer-bottom  text
+$color-red-orange:#df5126; // startup  text
+
+$color-brown-pod: #1b0a04;  //footer-bottom background
+
+$color-warm-grey: #838383; // label, single post
+$color-golden-yellow: #ffc021; 
+$color-light-gold: #ffc655; 
+$color-yellowish-brown: #9d7103;
+
+
+
+
+$color-orange: #d79366; 
+$color-orange-light: lighten( $color-orange, 10); 
+$color-orange-dark: darken( $color-orange, 10); 
+
+$color-warm-orange: #b53f24; 
+$color-warm-orange-light: lighten( $color-warm-orange, 10); 
+$color-warm-orange-dark: darken( $color-warm-orange, 10); 
+
+$color-peach: #9e5337; 
+$color-peach-light: lighten( $color-peach, 10); 
+$color-peach-dark: darken( $color-peach, 10); 
+
+$color-yellow: #FAD49A; 
+$color-yellow-light: lighten( $color-yellow, 10); 
+$color-yellow-dark: darken( $color-yellow, 10); 
+
+$color-warm-yellow: #f9a934; 
+$color-warm-yellow-light: lighten( $color-warm-yellow, 10); 
+$color-warm-yellow-dark: darken( $color-warm-yellow, 10); 
+
+$color-purple: #360c30; 
+$color-purple-light: lighten( $color-purple, 20); 
+$color-purple-dark: darken( $color-purple, 10); 
+
+$color-pink: #a45575; 
+$color-pink-light: lighten( $color-pink, 10); 
+$color-pink-dark: darken( $color-pink, 10); 
+
+
+
+$color-brown: #2f0909; 
+$color-brown-light: lighten( $color-brown, 10); 
+$color-brown-dark: darken( $color-brown, 10); 
+
+$color-light-brown: #784B2E; 
+$color-light-brown-light: lighten( $color-light-brown, 10); 
+$color-light-brown-dark: darken( $color-light-brown, 10); 
+
+$color-blue-green: #004c47; 
+$color-blue-green-light: lighten( $color-blue-green, 10); 
+$color-blue-green-dark: darken( $color-blue-green, 10); 
+
+$color-red: #8e1712; 
+$color-red-light: lighten( $color-red, 10); 
+$color-red-dark: darken( $color-red, 10); 
+
+
+//Background Color
+.hero-back{
+	&-white {
+		background-color:$color-white !important;
+	}
+	&-black {
+		background-color:$color-black !important;
+	}
+	
+	//orange
+	&-orange {
+		background-color:$color-orange !important;
+	}
+	&-orange-light {
+		background-color:#fad39a !important;
+	}
+	&-orange-dark {
+		background-color:$color-orange-dark !important;
+	}
+	
+	//brilliant-orange
+	&-brilliant-orange {
+		background-color:$color-orange !important;
+	}
+	&-brilliant-orange-light {
+		background-color: lighten( $color-brilliant-orange, 10) !important;
+	}
+	&-brilliant-orange-dark {
+		background-color:  darken( $color-brilliant-orange, 10) !important;
+	}
+  
+  	//warm-orange
+	&-warm-orange {
+		background-color:$color-warm-orange !important;
+	}
+	&-warm-orange-light {
+		background-color:$color-warm-orange-light !important;
+	}
+	&-warm-orange-dark {
+		background-color:$color-warm-orange-dark !important;
+	}
+  
+  	//palatinate-purple
+	&-palatinate-purple-light {
+		background-color:#34162e !important;
+	}
+	&-palatinate-purple {
+		background-color:$color-palatinate-purple !important;
+	}
+	
+  	//peach
+	&-peach {
+		background-color:$color-peach !important;
+	}
+	&-peach-light {
+		background-color:$color-peach-light !important;
+	}
+	&-peach-dark {
+		background-color:$color-peach-dark !important;
+	}
+	
+	//yellow
+	&-yellow {
+		background-color:$color-yellow !important;
+	}
+	&-yellow-light {
+		background-color:$color-yellow-light !important;
+	}
+	&-yellow-dark {
+		background-color:$color-yellow-dark !important;
+	}
+	
+	//purple
+	&-purple {
+		background-color:$color-purple !important;
+	}
+	&-purple-light {
+		background-color:$color-purple-light !important;
+	}
+	&-purple-dark {
+		background-color:$color-purple-dark !important;
+	}
+	
+	//purple
+	&-pink {
+		background-color:$color-pink !important;
+	}
+	&-pink-light {
+		background-color:$color-pink-light !important;
+	}
+	&-pink-dark {
+		background-color:$color-pink-dark !important;
+	}
+	
+	//brown pod
+	&-brown-pod {
+		background-color:$color-brown-pod !important;
+	}
+	&-brown-pod-light {
+		background-color:lighten($color-brown-pod, 5) !important;
+	}
+	&-brown-pod-dark {
+		background-color: darken($color-brown-pod, 10) !important;
+	}
+	
+	//brown
+	&-brown {
+		background-color:$color-brown !important;
+	}
+	&-brown-light {
+		background-color:$color-brown-light !important;
+	}
+	&-brown-dark {
+		background-color:$color-brown-dark !important;
+	}
+	
+	//light brown
+	&-light-brown {
+		background-color:$color-light-brown !important;
+	}
+	&-light-brown-light {
+		background-color:$color-light-brown-light !important;
+	}
+	&-light-brown-dark {
+		background-color:$color-light-brown-dark !important;
+	}
+	
+	//blue green
+	&-blue-green {
+		background-color:$color-blue-green !important;
+	}
+	&-blue-green-light {
+		background-color:$color-blue-green-light !important;
+	}
+	&-blue-green-dark {
+		background-color:$color-blue-green-dark !important;
+	}
+  
+    //red
+	&-red {
+		background-color:$color-red !important;
+	}
+	&-red-light {
+		background-color:$color-red-light !important;
+	}
+	&-red-dark {
+		background-color:$color-red-dark !important;
+	}
+	
+    //persian-green
+	&-persian-green {
+		background-color:$color-persian-green !important;
+	}
+	&-persian-green-light {
+		background-color: lighten( $color-persian-green, 10)  !important;
+	}
+	&-persian-green-med {
+		background-color:#18302a !important;
+	}
+	&-persian-green-dark {
+		background-color: darken( $color-persian-green, 27) !important;
+	}
+	
+}
+
+//Text Color
+.hero-text{
+	&-white {
+		color:$color-white !important;
+	}
+	&-black {
+		color:$color-black !important;
+	}
+	&-sepia {
+		color:$color-sepia !important;
+	}
+	&-greyish {
+		color:$color-greyish !important;
+	}
+	&-greyish-dark {
+		color:darken($color-greyish,30) !important;
+	}
+	&-warm-greyish {
+		color:$color-warm-grey !important;
+	}
+	&-golden-yellow {
+		color:$color-golden-yellow !important;
+	}
+	&-light-gold {
+		color:$color-light-gold !important;
+	}
+	&-yellowish-brown {
+		color:$color-yellowish-brown !important;
+	}
+	
+	//strong-orange
+	&-strong-orange {
+		color:$color-strong-orange !important;
+	}
+	
+	//orange
+	&-orange {
+		color:$color-orange !important;
+	}
+	&-orange-light {
+		color:#fad39a !important;
+	}
+	&-orange-dark {
+		color:$color-orange-dark !important;
+	}
+	
+	//warm-orange
+	&-warm-orange {
+		color:$color-warm-orange !important;
+	}
+	&-warm-orange-light {
+		color:$color-warm-orange-light !important;
+	}
+	&-warm-orange-dark {
+		color:$color-warm-orange-dark !important;
+	}
+	
+	//yellow
+	&-yellow {
+		color:$color-yellow !important;
+	}
+	&-yellow-light {
+		color:$color-yellow-light !important;
+	}
+	&-yellow-dark {
+		color:$color-yellow-dark !important;
+	}
+  
+  	//warm yellow
+	&-warm-yellow {
+		color:$color-warm-yellow !important;
+	}
+	&-warm-yellow-light {
+		color:$color-warm-yellow-light !important;
+	}
+	&-warm-yellow-dark {
+		color:$color-warm-yellow-dark !important;
+	}
+	
+	//purple
+	&-purple {
+		color:$color-purple !important;
+	}
+	&-purple-light {
+		color:$color-purple-light !important;
+	}
+	&-purple-dark {
+		color:$color-purple-dark !important;
+	}
+	
+	//purple
+	&-pink {
+		color:$color-pink !important;
+	}
+	&-pink-light {
+		color:$color-pink-light !important;
+	}
+	&-pink-dark {
+		color:$color-pink-dark !important;
+	}
+	
+	//color-brown-pod
+	&-brown-pod {
+		color:$color-brown-pod !important;
+	}
+	//brown
+	
+	&-brown {
+		color:$color-brown !important;
+	}
+	&-brown-light {
+		color:$color-brown-light !important;
+	}
+	&-brown-dark {
+		color:$color-brown-dark !important;
+	}
+	
+	//light brown
+	&-light-brown {
+		color:$color-light-brown !important;
+	}
+	&-light-brown-light {
+		color:$color-light-brown-light !important;
+	}
+	&-light-brown-dark {
+		color:$color-light-brown-dark !important;
+	}
+	
+	//blue green
+	&-blue-green {
+		color:$color-blue-green !important;
+	}
+	&-blue-green-light {
+		color:$color-blue-green-light !important;
+	}
+	&-blue-green-dark {
+		color:$color-blue-green-dark !important;
+	}
+	
+  	//red
+	&-red {
+		color:$color-red !important;
+	}
+	&-red-light {
+		color:$color-red-light !important;
+	}
+	&-red-dark {
+		color:$color-red-dark !important;
+	}
+	
+  	//persian-green
+	&-persian-green {
+		color:$color-persian-green !important;
+	}
+	&-persian-green-light {
+		color:lighten($color-persian-green, 10) !important;
+	}
+	&-persian-green-dark {
+		color:darken($color-persian-green, 25) !important;
+	}
+	
+  	//persian-green
+	&-red-orange {
+		color:$color-red-orange !important;
+	}
+  
+}
+
+//Horizontal Color
+.hero-hr{
+	&-white{
+		border:2px solid $color-white;
+	}
+	&-greyish{
+		border:2px solid $color-greyish;
+	}
+  	&-red{
+		border:2px solid $color-red;
+	}
+  	&-red-dark{
+		border:2px solid $color-red-dark;
+	}
+	
+	&-pink{
+		border:2px solid $color-pink;
+	}
+	&-pink-light{
+		border:2px solid $color-pink-light;
+	}
+	
+	&-purple{
+		border:2px solid $color-purple;
+	}
+	&-purple-light{
+		border:2px solid $color-purple-light;
+	}
+	
+	&-orange{
+		border:2px solid $color-orange;
+	}
+  	&-warm-orange-light{
+		border:2px solid $color-warm-orange-light;
+	}
+	&-orange-light{
+		border:2px solid $color-orange-light;
+	}
+  
+  	&-blue-green-light{
+		border:2px solid $color-blue-green-light;
+	}
+	
+	&-blure-blure{
+		border:2px solid #00aca0;
+	}
+}

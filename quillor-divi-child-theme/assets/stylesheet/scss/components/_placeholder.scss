@@ -1,0 +1,47 @@
+//Place Holder
+body{
+  .quillor-form{
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #a4a4a4 !important;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+      color: #a4a4a4 !important;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+      color: #a4a4a4 !important;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+      color: #a4a4a4 !important;
+    }
+  }
+  .garamond-font-placeholder{
+  	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+     font-family: 'EB Garamond', serif;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+      font-family: 'EB Garamond', serif;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+     font-family: 'EB Garamond', serif;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+      font-family: 'EB Garamond', serif;
+    }
+  }
+  .contact-us {
+  	text-decoration:none !important;
+  }
+  
+  .overlay{
+    &-teal{
+      .mejs-layers{
+      	background:rgba(17, 75, 70, 0.6);
+      }
+    }
+  }
+  .bg-video{
+    &-teal-dark{
+      background: darken( $color-teal, 10);
+    }
+  }
+}
