@@ -59,14 +59,6 @@ $( document ).ready(function() {
          maxFont   : 150,
          fontRatio : 7
       });
-	  $('h1').flowtype({
-         minimum   : 200,
-         maximum   : 1200,
-         minFont   : 42,
-         maxFont   : 110,
-         fontRatio : 10
-      });
-
    
 	   
       $('.flowtype-h2').flowtype({
@@ -76,7 +68,15 @@ $( document ).ready(function() {
          maxFont   : 80,
          fontRatio : 12
       });
-	  
+	 /*
+	  $('h1').flowtype({
+         minimum   : 200,
+         maximum   : 1200,
+         minFont   : 42,
+         maxFont   : 110,
+         fontRatio : 10
+      });
+
 	  $('h2').flowtype({
          minimum   : 200,
          maximum   : 1200,
@@ -84,7 +84,7 @@ $( document ).ready(function() {
          maxFont   : 80,
          fontRatio : 12
       });
-
+	*/
 
       $('.flowtype-h3').flowtype({
          minimum   : 200,
