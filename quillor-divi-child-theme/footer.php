@@ -56,6 +56,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 	</div> <!-- #page-container -->
 
 	<?php wp_footer(); 
+	
 	if(is_page( 'Stories' )){
 		?>
 		<script >
@@ -77,9 +78,16 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 						}
 					}
 				});
+				
+	
 				//mixer.filter('all');
 				
 		</script>
 	<?php } ?>
+	<script>
+		document.addEventListener('DOMContentLoaded', function(){
+			new Cocoen();
+		});
+	</script>
 </body>
 </html>

@@ -121,13 +121,17 @@ body{
          li.gfield{
              margin-top: 0px;
              margin-bottom: 0px !important;
-
+			
+			label{
+				line-height: 0px;
+				display: none;
+			}
             input, textarea{
               border-radius: 10px 0px 10px;
               -moz-border-radius: 10px 0px 10px;
               -webkit-border-radius: 10px 0px 10px;
               border: 2px solid #979797;
-              padding: 2px 10px !important;
+              padding: 10px 10px !important;
               height: auto !important;
               color: #a8a8a8;
               font-weight: bold;
